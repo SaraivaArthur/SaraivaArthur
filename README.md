@@ -29,9 +29,6 @@
   <a href="https://www.linkedin.com/in/arthur-saraiva-de-fran%C3%A7a-155453266/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="40" alt="linkedin logo"  />
   </a>
-  <a href="https://www.instagram.com/saraivaarthur_/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=flat" height="40" alt="instagram logo"  />
-  </a>
 </div>
 
 ###
