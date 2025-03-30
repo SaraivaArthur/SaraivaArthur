@@ -2,11 +2,9 @@
 
 ###
 
-<p align="left">Eu utilizo a linguagem Python em meus projetos, e os publico aqui no meu perfil.</p>
+<p align="center">Eu utilizo a linguagem Python em meus projetos, e os publico aqui no meu perfil.</p>
 
 ###
-
-
 
 <h3 align="center">📈 Estatísticas e Contribuições</h3>
 
@@ -28,11 +26,11 @@
 ###
 
 <div align="center">
-  <a href="https://www.instagram.com/saraivaarthur_/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  <a href="https://www.linkedin.com/in/arthur-saraiva-de-fran%C3%A7a-155453266/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="40" alt="linkedin logo"  />
   </a>
-  <a href="Email:arthurdfranca09@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  <a href="https://www.instagram.com/saraivaarthur_/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=flat" height="40" alt="instagram logo"  />
   </a>
 </div>
 
