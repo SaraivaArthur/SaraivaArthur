@@ -6,9 +6,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/SaraivaArthur/SaraivaArthur/output/snake.svg" alt="Snake animation" />
 
-###
 
 <h3 align="center">📈 Estatísticas e Contribuições</h3>
 
