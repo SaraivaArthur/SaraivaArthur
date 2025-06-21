@@ -14,7 +14,7 @@
 
 ###
 
-<p align="center">Eu utilizo a linguagem Python em meus projetos, e os publico aqui no meu perfil.</p>
+<p align="center">Eu utilizo a linguagem Python, Java, HTML e CSS em meus projetos, e os publico aqui no meu perfil.</p>
 
 ###
 
