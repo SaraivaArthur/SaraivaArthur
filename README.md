@@ -10,11 +10,11 @@
 
 ###
 
-<h2 align="left">Olá👋! Meu nome é Arthur, eu curso Análise Desenvolvimento de Sistemas e sou do Brasil.</h2>
+<h2 align="left">Hi👋! My name is Arthur Saraiva and I'm studying systems analysis and development.</h2>
 
 ###
 
-<p align="center">Eu utilizo a linguagem Python, Java, HTML e CSS em meus projetos, e os publico aqui no meu perfil.</p>
+<p align="center">Eu utilizo a linguagem Python e Javascript em meus projetos, linguagem de marcação HTML e CSS, e os publico aqui no meu perfil.</p>
 
 ###
 
@@ -33,14 +33,10 @@
 
 ###
 
-<p align="center">Entre em contato comigo 👇</p>
-
-###
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/arthur-saraiva-de-fran%C3%A7a-155453266/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="40" alt="linkedin logo"  />
-  </a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaraivaArthur/SaraivaArthur/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaraivaArthur/SaraivaArthur/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/SaraivaArthur/SaraivaArthur/output/pacman-contribution-graph.svg">
+</picture>
 
 ###
