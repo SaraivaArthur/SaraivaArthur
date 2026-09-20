@@ -34,8 +34,6 @@ My goal is to become a Software Engineer in the banking technology sector.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SaraivaArthur&show_icons=true&theme=dark&bg_color=080808&title_color=FF0000&icon_color=FF0000&text_color=FFFFFF&border_color=FF0000" />
-
 <br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaraivaArthur&theme=dark&background=080808&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&border=FF0000" />
