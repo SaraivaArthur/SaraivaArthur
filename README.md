@@ -4,15 +4,15 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=FF0000&center=true&vCenter=true&width=700&lines=Java%2C+Go+e+PostgreSQL;Estudante+de+Desenvolvimento+de+Sistemas" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=FF0000&center=true&vCenter=true&width=700&lines=Software+Developer;Java%2C+Spring+Boot%2C+Go" />
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=java,spring,go,python,postgres&theme=dark" />
+Software Developer from Brazil | Passionate about technology, continuous learning, and solving complex problems.
 
-<br>
+<br><br>
 
-<img src="https://img.shields.io/badge/Chi-FF0000?style=for-the-badge&logo=go&logoColor=white&labelColor=080808"/>
+<img src="https://skillicons.dev/icons?i=java,spring,go,postgres&theme=dark" />
 
 </div>
 
@@ -34,11 +34,7 @@ My goal is to become a Software Engineer in the banking technology sector.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,go,python,postgres&theme=dark" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Chi-FF0000?style=for-the-badge&logo=go&logoColor=white&labelColor=080808"/>
+<img src="https://skillicons.dev/icons?i=java,spring,go,postgres&theme=dark" />
 
 </div>
 
@@ -66,3 +62,36 @@ Spring Boot
 MySQL
 REST API
 CRUD Operations
+```
+
+---
+
+## `> github_stats`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=SaraivaArthur&show_icons=true&theme=dark&bg_color=080808&title_color=FF0000&icon_color=FF0000&text_color=FFFFFF&border_color=FF0000" />
+
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SaraivaArthur&theme=dark&background=080808&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&border=FF0000" />
+
+</div>
+
+---
+
+## `> contributions`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SaraivaArthur&theme=github-compact&bg_color=080808&color=FF0000&line=FF0000&point=FFFFFF&area=true&hide_border=true" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:8B0000,100:FF0000&height=120&section=footer" width="100%"/>
+
+</div>
