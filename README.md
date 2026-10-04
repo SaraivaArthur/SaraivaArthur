@@ -8,7 +8,7 @@
 
 Software Developer from Brazil | Passionate about technology, continuous learning, and solving complex problems.
 
-<img src="https://skillicons.dev/icons?i=java,spring,go,postgres&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,django,java,spring,go,postgres&theme=dark" />
 
 </div>
 
