@@ -16,11 +16,13 @@ Software Developer from Brazil | Passionate about technology, continuous learnin
 
 ## `> about_me`
 
-I'm a Systems Development student focused on backend development.
+I'm a Systems Development student focused on backend development, working mainly with Java, Go and Python.
 
-I enjoy building practical solutions, learning new technologies and improving my programming skills through real projects.
+I'm passionate about technology. I enjoy building practical solutions, learning new technologies and improving my programming skills through real projects.
 
-My main interests are Java, Go, APIs, backend development and databases.
+My main interests are Java, Go, Python, APIs, backend development and databases.
+
+Outside of coding projects, my favorite hobbies are learning new programming languages, tinkering with maker projects (Arduino) and following automations for everyday tasks.
 
 My goal is to become a Software Engineer in the banking technology sector.
 
