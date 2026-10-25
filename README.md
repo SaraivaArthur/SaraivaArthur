@@ -2,13 +2,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:8B0000,100:FF0000&height=220&section=header&text=@SaraivaArthur&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=BACKEND%20DEVELOPER&descAlignY=60&descSize=17" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=FF0000&center=true&vCenter=true&width=700&lines=Software+Developer;Java%2C+Spring+Boot%2C+Python%2C+Django%2C+Go%2C+SQL" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=FF0000&center=true&vCenter=true&width=700&lines=Software+Developer;Java%2C+Spring+Boot%2C+Go%2C+SQL" />
 
 <br><br>
 
 Software Developer from Brazil | Passionate about technology, continuous learning, and solving complex problems.
 
-<img src="https://skillicons.dev/icons?i=python,django,java,spring,go,postgres&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,spring,go,postgres&theme=dark" />
 
 </div>
 
@@ -16,11 +16,11 @@ Software Developer from Brazil | Passionate about technology, continuous learnin
 
 ## `> about_me`
 
-I'm a Systems Development student focused on backend development, working mainly with Java, Go and Python.
+I'm a Systems Development student focused on backend development, working mainly with Java and Go.
 
 I'm passionate about technology. I enjoy building practical solutions, learning new technologies and improving my programming skills through real projects.
 
-My main interests are Java, Go, Python, APIs, backend development and databases.
+My main interests are Java, Go, APIs, backend development and databases.
 
 Outside of coding projects, my favorite hobbies are learning new programming languages, tinkering with maker projects (Arduino) and following automations for everyday tasks.
 
