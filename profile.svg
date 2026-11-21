@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1400" viewBox="0 0 1600 1400" role="img" aria-label="Arthur Saraiva, Backend Developer. Quem sou eu, onde quero trabalhar e linguagens que utilizo.">
+<style>
+.sans{font-family:'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Courier New',monospace}
+.drift{animation:drift 6s linear infinite}
+.flow{stroke-dasharray:10 10;animation:flow 1.2s linear infinite}
+.float{animation:float 5s ease-in-out infinite}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 3s ease-out infinite}
+.glow{animation:glow 6s ease-in-out infinite}
+@keyframes drift{to{transform:translateX(48px)}}
+@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes pulse{0%,100%{opacity:.4;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}
+@keyframes ping{0%{opacity:.7;transform:scale(1)}70%,100%{opacity:0;transform:scale(1.38)}}
+@keyframes glow{0%,100%{opacity:.18}50%{opacity:.36}}
+</style>
+<defs>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#000" fill-opacity=".07"/></pattern>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#000" stroke-opacity=".08" stroke-width="1.5"/></pattern>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6E7E9"/><stop offset="1" stop-color="#D3D4D7"/></linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C3C4C6" stop-opacity="0"/><stop offset="1" stop-color="#C3C4C6"/></linearGradient>
+  <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#17b36b"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#1a1230" flood-opacity=".22"/></filter>
+  <filter id="pg" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <path id="req" d="M200 400H1400"/>
+  <path id="res" d="M1400 440H200"/>
+  <path id="py" d="M32 6C20 6 21 11 21 11V17H33V19H16C16 19 8 18 8 32C8 46 15 45 15 45H19V39C19 39 19 32 26 32H38C38 32 44 32 44 26V13C44 13 45 6 32 6Z"/>
+</defs>
+
+<rect width="1600" height="1400" fill="#C3C4C6"/>
+<rect width="1600" height="1400" fill="url(#dots)"/>
+
+<!-- ============ 1. HERO ============ -->
+<rect class="drift" x="-48" y="0" width="1696" height="560" fill="url(#grid)"/>
+<rect x="0" y="440" width="1600" height="120" fill="url(#fade)"/>
+<circle class="glow" cx="1300" cy="90" r="170" fill="#7c5cff" filter="url(#blur)"/>
+<circle class="glow" cx="160" cy="280" r="130" fill="#17b36b" filter="url(#blur)" style="animation-delay:3s"/>
+
+<circle class="pulse" cx="92" cy="226" r="7" fill="#17b36b"/>
+<text class="sans" x="80" y="172" font-size="112" font-weight="800" letter-spacing="-3" fill="#15121f">Arthur <tspan fill="#5b3fd6">Saraiva</tspan></text>
+<text class="mono" x="118" y="234" font-size="26" font-weight="700" letter-spacing="8" fill="#4a4d54">BACKEND DEVELOPER</text>
+
+<g transform="translate(1100,50)"><g class="float" style="animation-duration:5s">
+  <rect width="360" height="52" rx="26" fill="#100d20" filter="url(#sh)"/>
+  <circle cx="28" cy="26" r="6" fill="#6ef0a8"/>
+  <text class="mono" x="48" y="33" font-size="19" fill="#c9b8ff">GET /accounts</text>
+  <text class="mono" x="338" y="33" font-size="19" font-weight="700" fill="#6ef0a8" text-anchor="end">200</text>
+</g></g>
+<g transform="translate(1180,130)"><g class="float" style="animation-duration:6s;animation-delay:-2s">
+  <rect width="360" height="52" rx="26" fill="#100d20" filter="url(#sh)"/>
+  <circle cx="28" cy="26" r="6" fill="#ff9ad5"/>
+  <text class="mono" x="48" y="33" font-size="19" fill="#c9b8ff">POST /transfer</text>
+  <text class="mono" x="338" y="33" font-size="19" font-weight="700" fill="#6ef0a8" text-anchor="end">201</text>
+</g></g>
+<g transform="translate(1080,210)"><g class="float" style="animation-duration:5.5s;animation-delay:-3.5s">
+  <rect width="360" height="52" rx="26" fill="#100d20" filter="url(#sh)"/>
+  <circle cx="28" cy="26" r="6" fill="#c4a6ff"/>
+  <text class="mono" x="48" y="33" font-size="19" fill="#c9b8ff">SELECT balance</text>
+  <text class="mono" x="338" y="33" font-size="19" font-weight="700" fill="#6ef0a8" text-anchor="end">OK</text>
+</g></g>
+
+<!-- pipeline -->
+<use href="#req" xlink:href="#req" fill="none" stroke="#15121f" stroke-opacity=".35" stroke-width="2" class="flow"/>
+<use href="#res" xlink:href="#res" fill="none" stroke="#15121f" stroke-opacity=".35" stroke-width="2" class="flow"/>
+<g filter="url(#pg)" fill="#7c5cff">
+  <circle r="8"><animateMotion dur="6s" repeatCount="indefinite" begin="0s"><mpath href="#req" xlink:href="#req"/></animateMotion></circle>
+  <circle r="8"><animateMotion dur="6s" repeatCount="indefinite" begin="-2s"><mpath href="#req" xlink:href="#req"/></animateMotion></circle>
+  <circle r="8"><animateMotion dur="6s" repeatCount="indefinite" begin="-4s"><mpath href="#req" xlink:href="#req"/></animateMotion></circle>
+</g>
+<g filter="url(#pg)" fill="#17b36b">
+  <circle r="8"><animateMotion dur="6s" repeatCount="indefinite" begin="-1s"><mpath href="#res" xlink:href="#res"/></animateMotion></circle>
+  <circle r="8"><animateMotion dur="6s" repeatCount="indefinite" begin="-3s"><mpath href="#res" xlink:href="#res"/></animateMotion></circle>
+  <circle r="8"><animateMotion dur="6s" repeatCount="indefinite" begin="-5s"><mpath href="#res" xlink:href="#res"/></animateMotion></circle>
+</g>
+
+<g transform="translate(144,364)">
+  <rect class="ping" width="112" height="112" rx="26" fill="none" stroke="#7c5cff" stroke-width="3"/>
+  <rect width="112" height="112" rx="26" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <rect x="32" y="38" width="48" height="36" rx="6" fill="none" stroke="#15121f" stroke-width="3.5"/>
+  <path d="M32 49H80" stroke="#15121f" stroke-width="3.5"/>
+  <circle cx="40" cy="43.5" r="2" fill="#7c5cff"/><circle cx="47" cy="43.5" r="2" fill="#17b36b"/>
+  <text class="mono" x="56" y="144" font-size="16" font-weight="700" letter-spacing="4" fill="#15121f" text-anchor="middle">CLIENT</text>
+  <text class="mono" x="56" y="166" font-size="14" fill="#5d6068" text-anchor="middle">app / web</text>
+</g>
+<g transform="translate(544,364)">
+  <rect class="ping" width="112" height="112" rx="26" fill="none" stroke="#7c5cff" stroke-width="3" style="animation-delay:.75s"/>
+  <rect width="112" height="112" rx="26" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <text class="mono" x="56" y="70" font-size="38" font-weight="800" fill="#5b3fd6" text-anchor="middle">{ }</text>
+  <text class="mono" x="56" y="144" font-size="16" font-weight="700" letter-spacing="4" fill="#15121f" text-anchor="middle">API</text>
+  <text class="mono" x="56" y="166" font-size="14" fill="#5d6068" text-anchor="middle">Spring Boot</text>
+</g>
+<g transform="translate(944,364)">
+  <rect class="ping" width="112" height="112" rx="26" fill="none" stroke="#7c5cff" stroke-width="3" style="animation-delay:1.5s"/>
+  <rect width="112" height="112" rx="26" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <polygon points="56,30 78,43 78,69 56,82 34,69 34,43" fill="none" stroke="#15121f" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="56" cy="56" r="8" fill="#17b36b"/>
+  <text class="mono" x="56" y="144" font-size="16" font-weight="700" letter-spacing="4" fill="#15121f" text-anchor="middle">SERVICE</text>
+  <text class="mono" x="56" y="166" font-size="14" fill="#5d6068" text-anchor="middle">Java · Go</text>
+</g>
+<g transform="translate(1344,364)">
+  <rect class="ping" width="112" height="112" rx="26" fill="none" stroke="#7c5cff" stroke-width="3" style="animation-delay:2.25s"/>
+  <rect width="112" height="112" rx="26" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <rect x="34" y="36" width="44" height="34" fill="#336791"/>
+  <ellipse cx="56" cy="70" rx="22" ry="8" fill="#336791"/>
+  <ellipse cx="56" cy="36" rx="22" ry="8" fill="#699eca"/>
+  <path d="M34 48A22 8 0 0 0 78 48M34 59A22 8 0 0 0 78 59" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.6"/>
+  <text class="mono" x="56" y="144" font-size="16" font-weight="700" letter-spacing="4" fill="#15121f" text-anchor="middle">DATABASE</text>
+  <text class="mono" x="56" y="166" font-size="14" fill="#5d6068" text-anchor="middle">PostgreSQL</text>
+</g>
+
+<!-- ============ 2. QUEM SOU EU / ONDE QUERO TRABALHAR ============ -->
+<g transform="translate(80,600)">
+  <rect width="700" height="380" rx="30" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <circle class="pulse" cx="52" cy="50" r="6" fill="#5b3fd6"/>
+  <text class="mono" x="70" y="56" font-size="15" font-weight="700" letter-spacing="4" fill="#5b3fd6">01 · QUEM SOU EU</text>
+  <text class="mono" x="640" y="70" font-size="44" font-weight="800" fill="#15121f" text-anchor="end" opacity=".85">&gt;_</text>
+  <text class="sans" x="44" y="128" font-size="42" font-weight="800" fill="#15121f">Dev backend em formação.</text>
+  <rect x="44" y="146" width="90" height="5" rx="2.5" fill="url(#hl)"/>
+  <g class="sans" font-size="21" fill="#3d4047">
+    <text x="44" y="194">Sou Arthur, estudante do 1º ano de Análise e</text>
+    <text x="44" y="226">Desenvolvimento de Sistemas na FIAP. Transformo</text>
+    <text x="44" y="258">regras de negócio em APIs seguras, rápidas e</text>
+    <text x="44" y="290">confiáveis, com foco em Java, Go e bancos de dados.</text>
+  </g>
+  <g class="mono" font-size="15" font-weight="700" fill="#c9b8ff">
+    <rect x="44" y="318" width="72" height="34" rx="17" fill="#100d20"/><text x="80" y="340" text-anchor="middle">FIAP</text>
+    <rect x="128" y="318" width="144" height="34" rx="17" fill="#100d20"/><text x="200" y="340" text-anchor="middle">ADS · 1º ano</text>
+    <rect x="284" y="318" width="99" height="34" rx="17" fill="#100d20"/><text x="333.5" y="340" text-anchor="middle">Backend</text>
+  </g>
+</g>
+
+<g transform="translate(820,600)">
+  <rect width="700" height="380" rx="30" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <circle class="pulse" cx="52" cy="50" r="6" fill="#17b36b" style="animation-delay:-1s"/>
+  <text class="mono" x="70" y="56" font-size="15" font-weight="700" letter-spacing="4" fill="#0f8a50">02 · ONDE QUERO TRABALHAR</text>
+  <g transform="translate(590,26)"><g class="float" style="animation-duration:4s">
+    <polygon points="40,0 80,22 0,22" fill="#15121f"/>
+    <circle class="pulse" cx="40" cy="12" r="3.5" fill="#6ef0a8"/>
+    <g fill="#5b3fd6"><rect x="8" y="28" width="10" height="32"/><rect x="26" y="28" width="10" height="32"/><rect x="44" y="28" width="10" height="32"/><rect x="62" y="28" width="10" height="32"/></g>
+    <rect x="-2" y="64" width="84" height="8" rx="2" fill="#15121f"/>
+  </g></g>
+  <text class="sans" x="44" y="128" font-size="42" font-weight="800" fill="#15121f">Setor bancário.</text>
+  <rect x="44" y="146" width="90" height="5" rx="2.5" fill="url(#hl)"/>
+  <g class="sans" font-size="21" fill="#3d4047">
+    <text x="44" y="194">Onde cada transação precisa estar certa, sempre.</text>
+    <text x="44" y="226">Quero ser Software Engineer em tecnologia</text>
+    <text x="44" y="258">bancária, construindo sistemas seguros,</text>
+    <text x="44" y="290">confiáveis e preparados para escalar.</text>
+  </g>
+  <g class="mono" font-size="15" font-weight="700" fill="#6ef0a8">
+    <rect x="44" y="318" width="117" height="34" rx="17" fill="#100d20"/><text x="102.5" y="340" text-anchor="middle">Segurança</text>
+    <rect x="173" y="318" width="162" height="34" rx="17" fill="#100d20"/><text x="254" y="340" text-anchor="middle">Confiabilidade</text>
+    <rect x="347" y="318" width="90" height="34" rx="17" fill="#100d20"/><text x="392" y="340" text-anchor="middle">Escala</text>
+  </g>
+</g>
+
+<!-- ============ 3. LINGUAGENS ============ -->
+<text class="mono" x="800" y="1048" font-size="15" font-weight="700" letter-spacing="5" fill="#5d6068" text-anchor="middle">03 · LINGUAGENS &amp; TECNOLOGIAS</text>
+
+<g transform="translate(284,1090)"><g class="float" style="animation-delay:0s">
+  <circle cx="84" cy="84" r="70" fill="#E76F00" opacity=".30" filter="url(#blur)"/>
+  <rect width="168" height="168" rx="40" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <g transform="translate(23,23) scale(1.9)">
+    <path d="M30 4C38 12 22 17 30 27" stroke="#E76F00" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+    <path d="M41 9C46 15 37 20 42 26" stroke="#E76F00" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    <path d="M13 33H44V44Q44 52 36 52H21Q13 52 13 44Z" fill="#5382A1"/>
+    <path d="M44 36H48Q54 36 54 41Q54 46 48 46H44" stroke="#5382A1" stroke-width="3.4" fill="none"/>
+    <path d="M8 58Q32 63 56 58" stroke="#E76F00" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+  </g>
+</g>
+  <text class="sans" x="84" y="222" font-size="26" font-weight="700" fill="#15121f" text-anchor="middle">Java</text>
+  <text class="mono" x="84" y="248" font-size="14" fill="#5d6068" text-anchor="middle">linguagem</text>
+</g>
+<g transform="translate(500,1090)"><g class="float" style="animation-delay:-1s">
+  <circle cx="84" cy="84" r="70" fill="#6DB33F" opacity=".30" filter="url(#blur)"/>
+  <rect width="168" height="168" rx="40" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <g transform="translate(23,23) scale(1.9)">
+    <circle cx="32" cy="32" r="28" fill="#6DB33F"/>
+    <path d="M18 44C15 29 27 17 47 17C48 35 37 47 21 45Z" fill="#fff"/>
+    <path d="M21 43C27 35 34 28 42 22" stroke="#6DB33F" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  </g>
+</g>
+  <text class="sans" x="84" y="222" font-size="26" font-weight="700" fill="#15121f" text-anchor="middle">Spring Boot</text>
+  <text class="mono" x="84" y="248" font-size="14" fill="#5d6068" text-anchor="middle">framework</text>
+</g>
+<g transform="translate(716,1090)"><g class="float" style="animation-delay:-2s">
+  <circle cx="84" cy="84" r="70" fill="#3776AB" opacity=".30" filter="url(#blur)"/>
+  <rect width="168" height="168" rx="40" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <g transform="translate(23,23) scale(1.9)">
+    <use href="#py" xlink:href="#py" fill="#3776AB"/><circle cx="27" cy="12" r="2.4" fill="#fff"/>
+    <g transform="rotate(180 32 32)"><use href="#py" xlink:href="#py" fill="#FFD43B"/><circle cx="27" cy="12" r="2.4" fill="#fff"/></g>
+  </g>
+</g>
+  <text class="sans" x="84" y="222" font-size="26" font-weight="700" fill="#15121f" text-anchor="middle">Python</text>
+  <text class="mono" x="84" y="248" font-size="14" fill="#5d6068" text-anchor="middle">linguagem</text>
+</g>
+<g transform="translate(932,1090)"><g class="float" style="animation-delay:-3s">
+  <circle cx="84" cy="84" r="70" fill="#00ADD8" opacity=".30" filter="url(#blur)"/>
+  <rect width="168" height="168" rx="40" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <g transform="translate(23,23) scale(1.9)">
+    <g stroke="#00ADD8" stroke-width="3.6" stroke-linecap="round"><path d="M3 26H14"/><path d="M0 34H12"/><path d="M5 42H15"/></g>
+    <text class="sans" x="19" y="46" font-weight="800" font-style="italic" font-size="34" fill="#00ADD8" textLength="42" lengthAdjust="spacingAndGlyphs">GO</text>
+  </g>
+</g>
+  <text class="sans" x="84" y="222" font-size="26" font-weight="700" fill="#15121f" text-anchor="middle">Go</text>
+  <text class="mono" x="84" y="248" font-size="14" fill="#5d6068" text-anchor="middle">linguagem</text>
+</g>
+<g transform="translate(1148,1090)"><g class="float" style="animation-delay:-4s">
+  <circle cx="84" cy="84" r="70" fill="#336791" opacity=".30" filter="url(#blur)"/>
+  <rect width="168" height="168" rx="40" fill="url(#tile)" stroke="#fff" stroke-opacity=".6" filter="url(#sh)"/>
+  <g transform="translate(23,23) scale(1.9)">
+    <path d="M16 31C6 37 8 50 17 55" stroke="#336791" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="31" cy="27" rx="19" ry="18" fill="#336791"/>
+    <ellipse cx="47" cy="30" rx="10" ry="15" fill="#699eca" stroke="#fff" stroke-width="1.6"/>
+    <path d="M26 40C28 48 33 49 37 46" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M40 44C41 52 40 58 36 59C32 60 33 52 33 48" fill="#336791" stroke="#336791" stroke-width="2"/>
+    <circle cx="28" cy="21" r="3.4" fill="#fff"/><circle cx="27.4" cy="21.4" r="1.5" fill="#1d2b3a"/>
+  </g>
+</g>
+  <text class="sans" x="84" y="222" font-size="26" font-weight="700" fill="#15121f" text-anchor="middle">PostgreSQL</text>
+  <text class="mono" x="84" y="248" font-size="14" fill="#5d6068" text-anchor="middle">banco de dados</text>
+</g>
+</svg>
