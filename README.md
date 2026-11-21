@@ -1,40 +1,37 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:121315,65:4F5358,100:C8C8C8&height=150&section=header&text=ARTHUR&fontSize=42&fontColor=FFFFFF&fontAlignY=40&desc=Back-end%20Developer%20%E2%80%A2%20ADS%20%40%20FIAP&descAlignY=65&descColor=EAEAEA" width="100%" />
+  <br/>
+
+  <!-- Título Tipográfico Premium -->
+  <h1 align="center">
+    <font color="#C8C8C8">ARTHUR</font>
+  </h1>
+
+  <p align="center">
+    <code>BACK-END DEVELOPER</code> &nbsp;•&nbsp; <code>ADS @ FIAP</code>
+  </p>
 
   <br/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2400&pause=1100&color=C8C8C8&center=true&vCenter=true&repeat=true&width=460&lines=Back-end+Developer;An%C3%A1lise+e+Desenvolvimento+de+Sistemas+%40+FIAP" alt="Typing" />
+  <!-- Animação de Código Minimalista -->
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=1000&color=999999&center=true&vCenter=true&repeat=true&width=400&lines=Java+%7C+Spring+Boot+%7C+Go+%7C+Python+%7C+PostgreSQL" alt="Stack Typing" />
 
   <br/><br/>
 
-  <table border="0" cellspacing="10" cellpadding="6">
+  <!-- Stack Grid com Ícones Originais -->
+  <table align="center" border="0" cellpadding="12" cellspacing="0">
     <tr>
-      <td align="center" width="84">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="46" height="46" alt="Java" />
-        <br/><sub><code>Java</code></sub>
-      </td>
-      <td align="center" width="84">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="46" height="46" alt="Spring Boot" />
-        <br/><sub><code>Spring Boot</code></sub>
-      </td>
-      <td align="center" width="84">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="46" height="46" alt="Go" />
-        <br/><sub><code>Go</code></sub>
-      </td>
-      <td align="center" width="84">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="46" height="46" alt="Python" />
-        <br/><sub><code>Python</code></sub>
-      </td>
-      <td align="center" width="84">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="46" height="46" alt="PostgreSQL" />
-        <br/><sub><code>PostgreSQL</code></sub>
-      </td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="48" height="48" alt="Java"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="48" height="48" alt="Spring Boot"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="48" height="48" alt="Go"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" height="48" alt="Python"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL"/></td>
     </tr>
   </table>
 
   <br/>
 
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:121315,65:4F5358,100:C8C8C8&height=3&section=footer" width="100%" />
+  <!-- Linha Fina Cinza (#C8C8C8) -->
+  <hr width="50%" color="#C8C8C8" size="1" />
 
 </div>
