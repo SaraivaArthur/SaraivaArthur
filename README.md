@@ -1,29 +1,72 @@
 <div align="center">
 
-  <!-- Header Card Premium Minimalista -->
-  <img src="https://readme-daily-quotes.vercel.app/api?author=Arthur&quote=Back-end%20Developer%20%E2%80%A2%20An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas%20%40%20FIAP&theme=dark&bg_color=0D1117&author_color=C8C8C8&quote_color=8B949E" width="100%" alt="Arthur Header" />
+  <!-- Bloco Central do Terminal + Fundo Cinza Neutro -->
+  <table border="0" cellspacing="0" cellpadding="20" bgcolor="#D3D5D7" style="border-radius: 12px;">
+    <tr>
+      <td align="center">
+        <!-- Janela do Terminal Estilo MacOS -->
+        <table border="0" cellspacing="0" cellpadding="0" width="460" bgcolor="#0F0F1A" style="border-radius: 10px; font-family: 'Fira Code', 'Courier New', monospace;">
+          <!-- Barra Superior do Terminal -->
+          <tr height="32" bgcolor="#1A1A2E">
+            <td width="60" align="left" style="padding-left: 12px;">
+              <font color="#FF5F56">•</font> <font color="#FFBD2E">•</font> <font color="#27C93F">•</font>
+            </td>
+            <td align="right" style="padding-right: 14px;">
+              <font color="#7A7A9E" size="2"><b>arthur.js</b></font>
+            </td>
+          </tr>
+          <!-- Conteúdo do Código em JS -->
+          <tr>
+            <td colspan="2" style="padding: 18px 20px; line-height: 1.6;">
+              <pre align="left" style="margin: 0; font-family: 'Fira Code', monospace; font-size: 13px;"><font color="#C792EA">const</font> <font color="#82AAFF">arthur</font> = {
+  nome: <font color="#ECC48D">"Arthur"</font>,
+  cargo: <font color="#ECC48D">"Programador Back-end"</font>,
+  educacao: <font color="#ECC48D">"ADS @ FIAP"</font>,
+  stack: [
+    <font color="#ECC48D">"Java"</font>, <font color="#ECC48D">"Spring Boot"</font>,
+    <font color="#ECC48D">"Golang"</font>, <font color="#ECC48D">"Python"</font>, <font color="#ECC48D">"PostgreSQL"</font>
+  ]
+};
+
+<font color="#546E7A"><i>// sempre aprendendo algo novo</i></font></pre>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 
   <br/><br/>
 
-  <!-- Animação Terminal Minimalista -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=1000&color=C8C8C8&center=true&vCenter=true&repeat=true&width=500&lines=System.out.println(%22Hello%2C%20World!%22)%3B;Building+scalable+back-end+solutions...;ADS+%40+FIAP" alt="Typing Animation" />
-  </a>
-
-  <br/><br/><br/>
-
-  <!-- Seção de Tecnologias (Ícones Originais em Layout Clean) -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openapi-initiative&logoColor=white" height="35" alt="Java" />
-    &nbsp;
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=java,spring,go,py,postgres&theme=dark" height="45" alt="Tech Stack" />
-    </a>
-  </p>
+  <!-- Seção de Tecnologias (Ícones Originais) -->
+  <table border="0" cellspacing="12" cellpadding="4">
+    <tr>
+      <td align="center" width="70">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="42" height="42" alt="Java" />
+        <br/><sub><font color="#555555"><b>Java</b></font></sub>
+      </td>
+      <td align="center" width="70">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="42" height="42" alt="Spring Boot" />
+        <br/><sub><font color="#555555"><b>Spring</b></font></sub>
+      </td>
+      <td align="center" width="70">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="42" height="42" alt="Go" />
+        <br/><sub><font color="#555555"><b>Golang</b></font></sub>
+      </td>
+      <td align="center" width="70">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="42" height="42" alt="Python" />
+        <br/><sub><font color="#555555"><b>Python</b></font></sub>
+      </td>
+      <td align="center" width="70">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="PostgreSQL" />
+        <br/><sub><font color="#555555"><b>PostgreSQL</b></font></sub>
+      </td>
+    </tr>
+  </table>
 
   <br/>
 
-  <!-- Divisor Em degradê de Cinza Profissional -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:C8C8C8,100:0D1117&height=2&section=footer" width="100%" />
+  <!-- Linha Divisória Suave -->
+  <hr width="40%" color="#D3D5D7" size="1" />
 
 </div>
